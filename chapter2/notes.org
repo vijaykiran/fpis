@@ -1,0 +1,8 @@
+#+STARTUP:showall
+* Chapter 2 - Getting Started with FP in Scala
+- HOF - Higher Order Functions
+- Recursive functions instead of loops.
+- Take functions as arguments and *may* return functions as return values.
+- Polymorphics higher-order functions
+- `object` creates singletons, equivalent to an instance of an anonymous class in Java
+- No `static` keyword in scala

@@ -1,0 +1,13 @@
+#+STARTUP:showall
+
+* Chapter 1 - What is functional Programming
+** Referential Transparency
+- An expression e is said to be referentially transparent if for all programs p where every occurrence of e can be replaced by eval(e) without affecting the program p.
+** Pure Function
+- f is pure if for-all x, f(x) is referentially transparent.
+** Other Notes
+*** Constructing a program using only pure functions that have no side-effects
+*** Side Effects e.g. I/O, throwing Exceptions, Changing mutable objects, variables etc.
+*** Cafe example - oddly throws an exception when it can't combine CC -  still not pure
+*** Referential Transparency enables Reasoning about a program using - Substitutional Model or Equational Reasoning
+*** Programming with RT enables local reasoning
