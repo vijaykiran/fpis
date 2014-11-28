@@ -6,3 +6,6 @@
 - Polymorphics higher-order functions
 - `object` creates singletons, equivalent to an instance of an anonymous class in Java
 - No `static` keyword in scala
+- Loosely, every value in scala is an *object*
+- `object` is-a *module* is-a *namespace*
+- while loop hinders good compositional style (?)
