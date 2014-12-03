@@ -9,3 +9,6 @@
 - Loosely, every value in scala is an *object*
 - `object` is-a *module* is-a *namespace*
 - while loop hinders good compositional style (?)
+- very short variable names in FP
+- (Parametrically) Polymorphic Functions - polymorphic over the types of arguments (not talking about inheritance polymorphism)
+- If a function is polymorphic in some type A, the only operations than can be performed on A are those passed into the function as arguments
